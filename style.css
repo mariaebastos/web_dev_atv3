@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    line-height: 1.6;
+    background-color: #1b263b;
+    color: #e0e1dd;
+  }
+  
+  header {
+    background-color: #0d1b2a;
+    color: #e0e1dd;
+    padding: 2rem;
+    text-align: center;
+  }
+  
+  .subtitulo {
+    font-size: 1.1rem;
+    margin-top: 0.5rem;
+    color: #778da9;
+  }
+  
+  nav {
+    background-color: #415a77;
+    padding: 1rem;
+    text-align: center;
+  }
+  
+  nav a {
+    color: #e0e1dd;
+    text-decoration: none;
+    margin: 0 1rem;
+    font-weight: bold;
+    transition: color 0.3s;
+  }
+  
+  nav a:hover {
+    color: #a8dadc;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    padding: 2rem;
+    gap: 2rem;
+  }
+  
+  main {
+    flex: 3;
+    min-width: 300px;
+  }
+  
+  aside {
+    flex: 1;
+    min-width: 250px;
+    background-color: #0d1b2a;
+    padding: 1rem;
+    border-radius: 8px;
+    height: fit-content;
+  }
+  
+  aside h3 {
+    margin-bottom: 1rem;
+    color: #fefae0;
+  }
+  
+  aside ul {
+    list-style: none;
+  }
+  
+  aside li {
+    margin-bottom: 0.8rem;
+  }
+  
+  aside a {
+    text-decoration: none;
+    color: #adb5bd;
+    background-color: #1b263b;
+    padding: 0.5rem;
+    display: block;
+    border-radius: 4px;
+    transition: background-color 0.3s, color 0.3s;
+  }
+  
+  aside a:hover {
+    background-color: #778da9;
+    color: #fff;
+  }
+  
+  .post-img {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    border-radius: 8px;
+    margin: 1rem 0;
+  }
+  
+  article {
+    margin-bottom: 2rem;
+    background-color: #415a77;
+    padding: 1.5rem;
+    border-radius: 8px;
+    box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .autor {
+    background-color: #778da9;
+    padding: 1.5rem;
+    border-radius: 8px;
+    color: #0d1b2a;
+  }
+  
+  footer {
+    background-color: #0d1b2a;
+    color: #e0e1dd;
+    text-align: center;
+    padding: 1rem;
+    margin-top: 2rem;
+  }
+  
+  
